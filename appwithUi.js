@@ -7,7 +7,7 @@ const mongo=require('mongodb');
 const MongoClient=mongo.MongoClient;
 const bodyParser=require('body-parser');
 const cors=require('cors');
-const mongoUrl=process.env.mongoUrl
+const mongoUrl="mongodb+srv://local-user07:local-user07@cluster0.rgr4a.mongodb.net"
 let db;
 let col_name="octUser";
 app.use(bodyParser.urlencoded({extended:true}));
